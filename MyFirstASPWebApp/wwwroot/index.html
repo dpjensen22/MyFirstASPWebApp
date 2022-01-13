@@ -5,6 +5,7 @@
     <title>Mission #2</title>
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/Styles.css" rel="stylesheet" />
+    <link href="/img/3240662.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
 
@@ -32,23 +33,26 @@
     <h2>Grade Calculator:</h2>
     <form>
         <label>Assignments (55%):</label>
-        <input id="assignments" /><br />
+        <input type="number" id="assignments" /><br />
         <label>Group Projects (5%):</label>
-        <input id="groupprojects" /><br />
+        <input type="number" id="groupprojects" /><br />
         <label>Quizzes (10%):</label>
-        <input id="quizzes" /><br />
+        <input type="number" id="quizzes" /><br />
         <label>Exams (20%):</label>
-        <input id="exams" /><br />
+        <input type="number" id="exams" /><br />
         <label>INTEX (10%):</label>
-        <input id="INTEX" /><br />
-        <input id="calculate" type="button" value="calculate" onClick="calculate()"/>
+        <input type="number" id="INTEX" /><br />
+        <input id="calculate" type="button" value="calculate" onClick="calculate()" />
     </form>
 
-    <!--<p id="showdata"></p>-->
+    <h2>Percentage:<span id="showdatap"></span></h2>
+    <br>
+    <h2>Letter Grade:<span id="showdatalg"></span></h2>
+    <br>
 
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/calculator.js"></script>
     <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/calculator.js"></script>
 
 </body>
 </html>
