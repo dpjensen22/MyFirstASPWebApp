@@ -4,7 +4,7 @@
         $("#groupprojects").val() * .05 +
         $("#quizzes").val() * .10 +
         $("#exams").val() * .20 +
-        $("#intex").val() * .10) * 100
+        $("#intex").val() * .10)
 
     if (finalPercent >= 94) {
         letterGrade = "A"

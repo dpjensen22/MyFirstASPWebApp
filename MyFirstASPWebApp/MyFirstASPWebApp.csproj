@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <None Include="wwwroot\img\dave.jpg" />
-    <None Include="wwwroot\index.html" />
   </ItemGroup>
 
 </Project>
